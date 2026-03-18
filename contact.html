@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PravinGiri</title>
+</head>
+<body>
+
+    <!-- navbar section -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Go Home page</a></li>
+            <li style="float:right"><a href="about.html">About</a></li> 
+            <li style="float:right"><a href="project.html">Projects</a></li> 
+        </ul>
+    </nav>
+
+    <!-- main section -->
+    <main style="text-align: center;">
+        <section id="contact">
+            <h2 >Get in Touch</h2>
+            
+            <h3>Just fill out the form below and I'll get back to you as soon as possible!</h3>
+        </section>
+
+        <div>
+
+            <form action="/action_page.php">
+            <label for="name">Your name: </label>
+            <input type="text" id="name" name="name" value="" placeholder="write your name" required><br><br>
+            <label for="email">Your email: </label>
+            <input type="email" id="email" name="email" value="" placeholder="write your email" required><br><br>
+            <lable for="subject">Subject: </label>
+            <input type="text" id="subject" name="subject" value="" placeholder="write your subject" required><br><br>
+            <label for="message"><b> Message:</> </label><br>
+            <textarea id="message" name="message" rows="4" cols="30" placeholder="write message here" required></textarea><br><br>
+          
+            <input type="submit" value="Submit">
+            </form> 
+
+            <p>Thank you for messaging me.</p>
+        </div>
+    </main>
+
+<!-- footer section -->
+    <footer>
+        <p>&copy; 2026 PravinGiri. All rights reserved.</p>
+    </footer>
+</body>
+</html>
